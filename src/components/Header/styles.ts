@@ -1,5 +1,5 @@
 import styled from "styled-components/native";
-import AntDesign from '@expo/vector-icons/AntDesign';
+import AntDesign from "@expo/vector-icons/AntDesign";
 
 export const Container = styled.View`
   width: 100%;
@@ -9,17 +9,15 @@ export const Container = styled.View`
   justify-content: center;
 `;
 
-
 export const Logo = styled.Image`
-width: 46px;
-height: 55px;
-`
+  width: 46px;
+  height: 55px;
+`;
 export const BackButton = styled.TouchableOpacity`
-flex: 1;
-`
+  flex: 1;
+`;
 
 export const BackIcon = styled(AntDesign).attrs(({ theme }) => ({
-    size: 32,
-    color: theme.COLORS.WHITE,
-}))`
-`
+  size: 32,
+  color: theme.COLORS.WHITE,
+}))``;
